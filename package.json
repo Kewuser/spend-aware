@@ -1,0 +1,25 @@
+{
+  "name": "spendaware",
+  "version": "0.1.0",
+  "description": "Personal finance web app that reconciles pending/posted transactions into a real-time safe-to-spend number.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prisma:generate": "prisma generate"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.0",
+    "jest": "^29.7.0",
+    "prisma": "^5.16.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.0"
+  }
+}
